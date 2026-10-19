@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3290ff">
+  <title>Forests | Minecraft PvP Server</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #17345c;
+      background: #f4faff;
+    }
+    header {
+      padding: 18px 20px;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px #17345c12;
+    }
+    .logo {
+      font-size: 27px;
+      font-weight: 900;
+      color: #3290ff;
+    }
+    .hero {
+      text-align: center;
+      padding: 75px 20px;
+      background: linear-gradient(135deg, #c5f2ff, #e5ffd8, #fff1ce);
+    }
+    .tag {
+      color: #2383df;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-size: clamp(48px, 12vw, 82px);
+      margin: 15px 0;
+      color: #3290ff;
+    }
+    .hero p {
+      line-height: 1.9;
+      max-width: 500px;
+      margin: 0 auto 25px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 14px 24px;
+      margin: 5px;
+      border-radius: 30px;
+      background: #3290ff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn.secondary {
+      background: white;
+      color: #2383df;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: 25px auto;
+    }
+    .card {
+      background: white;
+      padding: 22px 14px;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px #17345c0b;
+    }
+    .card .emoji { font-size: 32px; }
+    .card h3 { color: #2383df; }
+    footer {
+      padding: 25px;
+      text-align: center;
+      background: #17345c;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌲 Forests</div>
+    <a class="btn" href="#info">サーバー情報</a>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="tag">MINECRAFT PVP SERVER</div>
+      <h1>Forests</h1>
+      <h2>仲間と、もっと強く。</h2>
+      <p>
+        新しいライバル、新しい仲間。<br>
+        Forestsで、自分だけのPvPストーリーを始めよう！
+      </p>
+      <a class="btn" href="#info">サーバーを知る</a>
+      <a class="btn secondary" href="#support">サポート</a>
+    </div>
+
+    <section id="info">
+      <h2>🌟 Forestsの特徴</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="emoji">⚔️</div>
+          <h3>PvPバトル</h3>
+          <p>実力を磨き、勝利をつかもう！</p>
+        </div>
+        <div class="card">
+          <div class="emoji">🎮</div>
+          <h3>Java & Bedrock</h3>
+          <p>対応するエディションから参加！</p>
+        </div>
+        <div class="card">
+          <div class="emoji">🏆</div>
+          <h3>ランキング</h3>
+          <p>ランキング機能は準備中！</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="modes">
+      <h2>🎯 ゲームモード</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="emoji">🥊</div>
+          <h3>1v1 Duel</h3>
+          <p>1対1でライバルと勝負！</p>
+        </div>
+        <div class="card">
+          <div class="emoji">✨</div>
+          <h3>Coming Soon</h3>
+          <p>新しいモードも順次追加予定！</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="support">
+      <h2>💬 サポート</h2>
+      <p>お問い合わせや異議申し立てはDiscordから。</p>
+      <p>Discordのリンクは後から設定できるよ！</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Forests Minecraft Server</p>
+    <p>Not affiliated with Mojang or Microsoft.</p>
+  </footer>
+</body>
+</html>
